@@ -1,4 +1,15 @@
 body{
 	margin:none;
 	padding:none;
+	background-color: #e8e8e8;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 2em;
+	font-size: 7vw;
+}
+.information li{
+	list-style: none;
+	font-size: 7vw;
 }
