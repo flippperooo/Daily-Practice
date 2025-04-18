@@ -75,3 +75,17 @@ nav svg{
 	background-color: var(--gunMetalGrey);
 	height:500px;
 }
+.products h1, ul{
+	padding-top: 3em;
+	text-align: center;
+	color:var(--bodyColor);
+	list-style-type: none;
+}
+.products ul{
+	font-size: 2em;
+	padding:0;
+	margin:0;
+}
+.products li{
+	padding-bottom:.5em;
+}
