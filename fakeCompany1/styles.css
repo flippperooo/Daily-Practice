@@ -1,6 +1,7 @@
 *{
 	--navColor: #242f40;
 	--bodyColor: #e5e5e5;
+	--lightTextColor:#e8e9ea;
 	--goldenYellow: #cca43b;
 	--lightBlue: #5a91e7;
 	--gunMetalGrey: #363636;
@@ -9,6 +10,9 @@ body{
 	margin:0;
 	padding:0;
 	background-color: var(--bodyColor);
+}
+p{
+	margin: 0;
 }
 /* temporary*/
 img{
@@ -67,9 +71,16 @@ nav svg{
 	align-items: center;
 }
 .donate button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: var(--lightBlue);
 	border: none;
-	border-radius: 100%;
+	padding:2em 5em;
+  width: 20em;
+	height: 4em;
+	border-radius: 100px 100px 100px 100px;
+	
 }
 .products{
 	background-color: var(--gunMetalGrey);
@@ -77,9 +88,11 @@ nav svg{
 }
 .products h1, ul{
 	padding-top: 3em;
-	text-align: center;
-	color:var(--bodyColor);
+	color:var(--lightTextColor);
 	list-style-type: none;
+}
+.products h1{
+	text-align: center;
 }
 .products ul{
 	font-size: 2em;
@@ -88,4 +101,13 @@ nav svg{
 }
 .products li{
 	padding-bottom:.5em;
+	margin-left: 4em;
+}
+.products p{
+	margin-right: 4em;
+}
+.priceContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
