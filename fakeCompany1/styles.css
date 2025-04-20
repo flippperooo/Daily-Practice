@@ -14,12 +14,6 @@ body{
 p{
 	margin: 0;
 }
-/* temporary*/
-img{
-	width:400px;
-}
-/* temporary*/
-
 
 nav{
 	background-color: var(--navColor);
@@ -40,25 +34,40 @@ nav svg{
 	width:100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
 .firstSection h1{
-	text-align: center;
+	font-family: Oswald;
+	font-size: 52px;
+	font-weight: 500;
+	align-self:left;
+	margin-left:1em;
 }
 .firstSection img{
+	align-self: center;
 	width:90vw;
 	height: 60vw;
 	box-shadow: 1px 1px 25px 14px #00000033
+}
+.firstSection p{
+	font-family: "Source Code Pro";
+	font-weight: 200;
 }
 .secondSection{
 	background-color: var(--goldenYellow);
 }
 .secondSection h1{
 	text-align: center;
+	font-size: 59px;
 }
 .content{
 	margin: 3em;
+	font-family: Source Code Pro;
 }
+.content :nth-child(odd){
+	font-weight: 100;
+}
+
+
 .content:nth-child(2){
 	display: flex;
 	flex-direction: column;
@@ -69,6 +78,9 @@ nav svg{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top:1em;
+	padding-bottom:4em;
+	
 }
 .donate button{
 	display: flex;
@@ -81,6 +93,9 @@ nav svg{
 	height: 4em;
 	border-radius: 100px 100px 100px 100px;
 	
+}
+.donate p{
+	font-family: Source Code Pro;
 }
 .products{
 	background-color: var(--gunMetalGrey);
@@ -110,4 +125,8 @@ nav svg{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+.priceContainer p{
+	font-family:Source Code Pro;
+	font-weight: 100;
 }
