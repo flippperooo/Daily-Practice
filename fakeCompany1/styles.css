@@ -20,12 +20,12 @@ nav{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 15em;
+	height: 180px;
 }
 nav img{
 	border-radius: 100%;
-	width: 10em;
-	height: 10em;
+	width: 135px;
+	height: 135px;
 }
 nav svg{
 	position: absolute;
@@ -40,7 +40,7 @@ nav svg{
 	font-size: 52px;
 	font-weight: 500;
 	align-self:left;
-	margin-left:1em;
+	margin-left:1px;
 }
 .firstSection img{
 	align-self: center;
@@ -50,7 +50,8 @@ nav svg{
 }
 .firstSection p{
 	font-family: "Source Code Pro";
-	font-weight: 200;
+	font-weight: 100;
+	font-size: 50px;
 }
 .secondSection{
 	background-color: var(--goldenYellow);
@@ -59,12 +60,19 @@ nav svg{
 	text-align: center;
 	font-size: 59px;
 }
+.secondSection img{
+	width:425px;
+}
 .content{
-	margin: 3em;
+	margin: 53px;
 	font-family: Source Code Pro;
+}
+.content :nth-child(even){
+	font-size: 42px;
 }
 .content :nth-child(odd){
 	font-weight: 100;
+	font-size:42px;
 }
 
 
@@ -78,9 +86,12 @@ nav svg{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top:1em;
-	padding-bottom:4em;
+	padding-top:1px;
+	padding-bottom:4px;
 	
+}
+.donate h1{
+	font-size: 50px;
 }
 .donate button{
 	display: flex;
@@ -88,21 +99,22 @@ nav svg{
 	align-items: center;
 	background-color: var(--lightBlue);
 	border: none;
-	padding:2em 5em;
-  width: 20em;
-	height: 4em;
+	padding:36px 190px;
+  width: 20px;
+	height: 4px;
 	border-radius: 100px 100px 100px 100px;
 	
 }
 .donate p{
 	font-family: Source Code Pro;
+	font-size: 36px;
 }
 .products{
 	background-color: var(--gunMetalGrey);
 	height:500px;
 }
 .products h1, ul{
-	padding-top: 3em;
+	padding-top: 3px;
 	color:var(--lightTextColor);
 	list-style-type: none;
 }
@@ -110,16 +122,16 @@ nav svg{
 	text-align: center;
 }
 .products ul{
-	font-size: 2em;
+	font-size: 2px;
 	padding:0;
 	margin:0;
 }
 .products li{
-	padding-bottom:.5em;
-	margin-left: 4em;
+	padding-bottom:.5px;
+	margin-left: 4px;
 }
 .products p{
-	margin-right: 4em;
+	margin-right: 4px;
 }
 .priceContainer{
 	display: flex;
