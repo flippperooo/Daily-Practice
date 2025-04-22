@@ -35,12 +35,12 @@ nav svg{
 	display: flex;
 	flex-direction: column;
 }
-.firstSection h1{
+.firstsection h1{
 	font-family: Oswald;
 	font-size: 52px;
 	font-weight: 500;
 	align-self:left;
-	margin-left:1px;
+	margin:1.5em 1em;
 }
 .firstSection img{
 	align-self: center;
@@ -52,6 +52,14 @@ nav svg{
 	font-family: "Source Code Pro";
 	font-weight: 100;
 	font-size: 50px;
+	width:90vw;
+	align-self:center;
+	margin-top:2em;
+	margin-bottom:1em;
+}
+.firstSection p:last-child{
+	margin: 0 0 1em 0;
+	text-align: right;
 }
 .secondSection{
 	background-color: var(--goldenYellow);
@@ -59,13 +67,16 @@ nav svg{
 .secondSection h1{
 	text-align: center;
 	font-size: 59px;
+	padding-top:2em;
 }
 .secondSection img{
 	width:425px;
+	padding-top:1em;
 }
 .content{
 	margin: 53px;
 	font-family: Source Code Pro;
+	display: flex;
 }
 .content :nth-child(even){
 	font-size: 42px;
@@ -74,11 +85,9 @@ nav svg{
 	font-weight: 100;
 	font-size:42px;
 }
-
-
 .content:nth-child(2){
 	display: flex;
-	flex-direction: column;
+	flex-direction: row-reverse;
 	align-items:flex-end;
 }
 .donate{
@@ -88,7 +97,6 @@ nav svg{
 	align-items: center;
 	padding-top:1px;
 	padding-bottom:4px;
-	
 }
 .donate h1{
 	font-size: 50px;
@@ -122,7 +130,7 @@ nav svg{
 	text-align: center;
 }
 .products ul{
-	font-size: 2px;
+	font-size: 32px;
 	padding:0;
 	margin:0;
 }
