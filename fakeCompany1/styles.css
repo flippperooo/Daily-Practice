@@ -35,7 +35,7 @@ nav svg{
 	display: flex;
 	flex-direction: column;
 }
-.firstsection h1{
+.firstSection h1{
 	font-family: Oswald;
 	font-size: 52px;
 	font-weight: 500;
@@ -75,6 +75,7 @@ nav svg{
 }
 .content{
 	margin: 53px;
+	padding-bottom:90px;
 	font-family: Source Code Pro;
 	display: flex;
 }
@@ -89,6 +90,9 @@ nav svg{
 	display: flex;
 	flex-direction: row-reverse;
 	align-items:flex-end;
+}
+.content-child:nth-child(even){
+	padding:40px;
 }
 .donate{
 	background-color: var(--bodyColor);
@@ -111,20 +115,24 @@ nav svg{
   width: 20px;
 	height: 4px;
 	border-radius: 100px 100px 100px 100px;
+	margin-top:40px;
 	
 }
 .donate p{
 	font-family: Source Code Pro;
 	font-size: 36px;
+	margin:70px 0px 60px 0px;
 }
 .products{
 	background-color: var(--gunMetalGrey);
 	height:500px;
+	padding: 100px 40px 60px 40px;
 }
 .products h1, ul{
 	padding-top: 3px;
 	color:var(--lightTextColor);
 	list-style-type: none;
+	font-size:62px;
 }
 .products h1{
 	text-align: center;
@@ -135,7 +143,7 @@ nav svg{
 	margin:0;
 }
 .products li{
-	padding-bottom:.5px;
+	padding-bottom:15px;
 	margin-left: 4px;
 }
 .products p{
