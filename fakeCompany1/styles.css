@@ -27,8 +27,20 @@ nav img{
 	width: 135px;
 	height: 135px;
 }
-nav svg{
-	position: absolute;
+svg{
+	width:100px;
+	height:100px;
+}
+svg:hover{
+	fill:gray;
+}
+.showOnMobile{
+	position:absolute;
+	top:0;
+	right:0;
+	padding-top:37px;
+	padding-right:21px;
+	margin:0px;
 }
 .firstSection{
 	width:100%;
